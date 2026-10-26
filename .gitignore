@@ -1,0 +1,21 @@
+# Backups created during editing
+netmap.py.bak-*
+*.bak
+*.orig
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Runtime data (device inventory, history) — never commit; it describes your LAN
+*.json
+.local/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
